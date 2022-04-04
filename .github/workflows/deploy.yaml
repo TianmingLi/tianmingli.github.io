@@ -6,7 +6,7 @@ on:
       - hexo
 
 env:
-  GIT_USER: Github Action
+  GIT_USER: tianmingli
   GIT_EMAIL: litmig@live.com
   # DEPLOY_REPO: xxx.github.io
   DEPLOY_BRANCH: master
