@@ -22,5 +22,5 @@ QT在线安装下载速度极慢，安装完成按月计算。
 
 ## 参考
 
-![利用镜像进行加速](https://wiki.qt.io/Online_Installer_4.x#Selecting_a_mirror_for_opensource)
+[利用镜像进行加速](https://wiki.qt.io/Online_Installer_4.x#Selecting_a_mirror_for_opensource)
 
