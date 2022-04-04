@@ -44,6 +44,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm install hexo-cli -g
+          npm install hexo-theme-next@latest
           npm install
 
       - name: Deploy hexo
