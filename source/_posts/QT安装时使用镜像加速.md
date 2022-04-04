@@ -17,7 +17,7 @@ QT在线安装下载速度极慢，安装完成按月计算。
 
 ![](/images/qt_acc_1.jpg)
 
-![](/images/qt_acc_1.jpg)
+![](/images/qt_acc_2.jpg)
 
 
 ## 参考
