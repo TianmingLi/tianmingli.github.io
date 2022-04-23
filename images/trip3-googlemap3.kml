@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>part3</name>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF6666-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff6666ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF6666-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff6666ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF6666-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF6666-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF6666-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Long Island, New York</name>
+      <description><![CDATA["My aunt's new flat in Long Island" - part 3, 247]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -73.817139,40.696778,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Greeley, Colorado</name>
+      <description><![CDATA["It didn't seem we were even going seventy but all the cars fell from us like dead flies on the straightaway highway leading up to Greeley" - part 3, 226]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -104.694214,40.400425,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sterling, Colorado</name>
+      <description><![CDATA["We must absolutely visit Ed Wall's ranch in Sterling." - part 3, 226]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -103.20282,40.61291,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ogallala, Nebraska</name>
+      <description><![CDATA["We came suddenly into the town of Ogallala, and here the fellows in the cab called out, "Pisscall!" and with great good delight." - part 1, 29<br><br>"it was perfectly legitimate to go 110 and talk and have all the Nebraska town--Ogallala, Gothenburg, Kearney, Grand Island, Columbus--unreel with dreamlike rapidity as we roared ahead and talked." - part 3, 231]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -101.719666,41.128763,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gothenburg, Nebraska</name>
+      <description><![CDATA["And so we talked, and he told me about his life, which wasn't very interesting, and I started to sleep some and woke up right outside the town of Gothenburg, where he let me off" - part 1, 21<br><br>"it was perfectly legitimate to go 110 and talk and have all the Nebraska town--Ogallala, Gothenburg, Kearney, Grand Island, Columbus--unreel with dreamlike rapidity as we roared ahead and talked." - part 3, 231]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -100.162525,40.925576,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kearney, Nebraska</name>
+      <description><![CDATA["it was perfectly legitimate to go 110 and talk and have all the Nebraska town--Ogallala, Gothenburg, Kearney, Grand Island, Columbus--unreel with dreamlike rapidity as we roared ahead and talked." - part 3, 231]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.08844,40.69782,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grand Island, Nebraska</name>
+      <description><![CDATA["Cowboy had two cars with him that he was driving back to Montana. His wife was at Grand Island, and he wanted us to drive one of the cars there, where she'd take over." - part 1, 17<br><br>"it was perfectly legitimate to go 110 and talk and have all the Nebraska town--Ogallala, Gothenburg, Kearney, Grand Island, Columbus--unreel with dreamlike rapidity as we roared ahead and talked." - part 3, 231]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -98.364029,40.917145,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Columbus, Nebraska</name>
+      <description><![CDATA["it was perfectly legitimate to go 110 and talk and have all the Nebraska town--Ogallala, Gothenburg, Kearney, Grand Island, Columbus--unreel with dreamlike rapidity as we roared ahead and talked." - part 3, 231]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -97.355347,41.430372,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Des Moines, Iowa</name>
+      <description><![CDATA["and that was the one distinct time in my life, the strangest moment of all, when I didn't know who I was. (...) I was halfway across America, at the dividing line between the East of my youth and the West of my future, and maybe that's why it happened right there and then, that strange red afternoon." - part 1, 15<br><br>"In the afternoon we crossed old Des Moines again." - part 3, 236]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -93.619995,41.583607,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Davenport, Iowa</name>
+      <description><![CDATA["In the afternoon we crossed drowsy old Davenport again and the low-lying Mississippi in her sawdust bed" - part 3, 236]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -90.583305,41.518346,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rock Island, Illinois</name>
+      <description><![CDATA["drove clear through the rest of Illinois to Davenport, Iowa, via Rock Island. And here for the first time in my life I saw my beloved Mississippi River, dry in the summer haze, low water, with its big rank smell that smells like the raw body of America itself because it washes it up. Rock Island--railroad tracks, shacks, small downtown section; and over the bridge to Davenport, same kind of town, all smelling of sawdust in the warm midwest sun." - part 1, 13<br><br>"then Rock Island, a few minutes of traffic, the sun reddening, and sudden sights of lovely little tributary rivers flowing softly among the magic trees and greeneries of mid-American Illinois." - part 3, 236]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -90.567169,41.450961,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chicago, Illinois</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -87.627726,41.873715,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Detroit, Michigan</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -83.045998,42.328601,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toledo, Ohio</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -83.575745,41.650341,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Francisco, California</name>
+      <description><![CDATA["Over the Oakland Bay Bridge I slept soundly for the first time since Denver; so that I was rudely jolted in the bus station at Market and Fourth into the memory of the fact that I was three thousand two hundred miles from my aunt's house in Paterson, New Jersey" - part 1, 60<br><br>"It seemed like a matter of minutes when we began rolling in the foothills before Oakland and suddenly reached a height and saw stretched out ahead of us the fabulous white city of San Francisco on her eleven mystic hills with the blue Pacific and its advancing wall of potato-patch fog beyond, and smoke and goldenness in the late afternoon of time. 'There she blows!' yelled Dean.'Wow! Made it! Just enough gas! Give me water! No more land! We can't go any further 'cause there ain't no more land!'" - part 2, 169<br><br>"Mission Street that last day in Frisco was  a great riot of construction work, children playing, whooping Negroes coming home from work, dust, excitement, the great buzzing and vibrating hum of what is really America's most excited city" - part 3, 205]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.419109,37.758162,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sacramento, California</name>
+      <description><![CDATA["then down the hills to the flats of Sacramento. I suddenly realized I was in California. Warm, palmy air--air you can kiss--and palms. Along the storied Sacramento River on a superhighway" - part 1, 60<br><br>"In Sacramento the fag slyly bought a room in a hotel and invited Dean and me to come up for a drink" - part 3, 210]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -121.485786,38.579842,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Reno, Nevada</name>
+      <description><![CDATA["then out to Nevada in the hot sun, Reno by nightfall, its twinkling Chinese streets" - part 1, 60<br><br>"Reno, Battle Moutain, Elko, all the towns along the Nevada roads shot by one after another" - part 3, 211]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -119.814148,39.527878,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Salt Lake City, Utah</name>
+      <description><![CDATA["arriving at Salt Lake City at dawn--a city of sprinklers, the least likely place for Dean to have been born" - part 1, 60<br><br>"We were on a hill overlooking Salt Lake City's neat patterns of light and he opened his eyes to the place in this spectral world where he was born, unnamed and bedraggled, years ago." - part 3, 212]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -111.886826,40.766502,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Strawberry Pass/Berthoud Pass, Utah</name>
+      <description><![CDATA["We spent almost the entire night crawling cautiously over Strawberry Pass in Utah and lost a lot of time. (..) Dean headed pellmell for the mighty wall of Berthoud Pass that stood a hundred miles ahead on the roof of the world, a tremendous Gibraltarian door shrouded in clouds." - part 3, 212]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -111.128082,40.184119,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>27th and Federal, Denver, Colorado</name>
+      <description><![CDATA["Dean was home. It was with a great deal of silly relief that these people let us off the car at the corner of 27th and Federal. Our battered suitcases were piled on the sidewalk again; we had longer ways to go. But no matter, the road is life." - part 3, 212]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -105.025048,39.7559,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle Mountain, Nevada</name>
+      <description><![CDATA["Reno, Battle Moutain, Elko, all the towns along the Nevada roads shot by one after another" - part 3, 211]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -116.935558,40.641051,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elko, Nevada</name>
+      <description><![CDATA["Reno, Battle Moutain, Elko, all the towns along the Nevada roads shot by one after another" - part 3, 211]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -115.766716,40.835113,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tabernash, Colorado</name>
+      <description><![CDATA["We went over Berthoud Pass, down to the great plateau, Tabernash, Kremmlings, down Rabbit Ears Pass to Steamboat Springs, and out" - part 3, 181]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -105.842285,39.991851,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kremmling, Colorado</name>
+      <description><![CDATA["We went over Berthoud Pass, down to the great plateau, Tabernash, Kremmlings, down Rabbit Ears Pass to Steamboat Springs, and out" - part 3, 181]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -106.371002,40.048643,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Steamboat Springs, Colorado</name>
+      <description><![CDATA["We went over Berthoud Pass, down to the great plateau, Tabernash, Kremmlings, down Rabbit Ears Pass to Steamboat Springs, and out" - part 3, 181]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -106.820068,40.462621,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Craig, Colorado</name>
+      <description><![CDATA["fifty miles of dusty detour; then Craig and the Great American Desert" - part 3, 181]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -107.550659,40.512755,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>On the Road, part 3: Denver-New York</name>
+      <styleUrl>#line-CC0000-5000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -104.985352,39.724089,0
+          -104.699707,40.396764,0
+          -103.205566,40.597271,0
+          -101.722412,41.120746,0
+          -100.15686,40.917664,0
+          -99.091187,40.697299,0
+          -98.360596,40.917664,0
+          -97.36084,41.426253,0
+          -93.625488,41.578471,0
+          -90.586395,41.512691,0
+          -90.569916,41.445815,0
+          -87.62146,41.869561,0
+          -83.040161,42.309815,0
+          -83.583984,41.648288,0
+          -73.811646,40.693134,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>On the Road, part 3: Denver-San Francisco</name>
+      <styleUrl>#line-FF6666-5000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -104.974365,39.732538,0
+          -105.842285,39.97712,0
+          -106.369629,40.027614,0
+          -106.820068,40.463666,0
+          -107.567139,40.513799,0
+          -111.884766,40.738933,0
+          -122.442627,37.753344,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>On the Road, part 3: San Francisco-Denver</name>
+      <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -122.442627,37.76203,0
+          -121.497803,38.556757,0
+          -119.794922,39.529467,0
+          -116.949463,40.613952,0
+          -115.773926,40.797177,0
+          -111.884766,40.75558,0
+          -111.126709,40.178873,0
+          -104.974365,39.749434,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
