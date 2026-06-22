@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Calque sans titre</name>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-33CC00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-33CC00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF6666-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff6666ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF6666-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff6666ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF6666-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF6666-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF6666-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFCC00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFCC00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFCC00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFCC00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFCC00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Long Island, New York</name>
+      <description><![CDATA["My aunt's new flat in Long Island" - part 3, 247]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -73.817139,40.696778,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Washington, D.C.</name>
+      <description><![CDATA["We arrived in Washington at dawn. It was the day of Harry Truman's inauguration for his second term. Great displays of war might were lined along Pennsylvania Avenue as we rolled by in our battered boat. There were B-29s, PT boats, artillery, all kinds of war materials that looked murderous in the snowy grass; the last thing was a regular small ordinary lifeboat that looked pitiful and foolish. Dean slowed down to look at it. He kept shaking his head in awe. 'What are these people up to? Harry's sleeping somewhere in this town.... Good old Harry.... Man from Missouri, as I am.... That must be his own boat.'" - part 2, 135<br><br>"I took the Washington bus; wasted some time there wandering around; went out of my way to see the Blue Ridge." - part 4, 255]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -77.036347,38.889897,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shenandoah</name>
+      <description><![CDATA["heard the birds of Shenandoah and visited Stonwall Jackson's grave" - part 4, 255]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -78.434143,38.470794,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Charleston, West Virginia</name>
+      <description><![CDATA["at dusk stood expectorating in the Kanawha River and walked the hillbilly night of Charleston, West Virginia" - part 4, 255]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -81.635284,38.351753,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ashland, Kentucky</name>
+      <description><![CDATA["at midnight Ashland, Kentucky, and a lonely girl under a marquee of a closed-up show" - part 4, 255]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -82.646971,38.456008,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cincinnati, Ohio</name>
+      <description><![CDATA["The dark and mysterious Ohio, and Cincinnati at dawn" - part 4, 255]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -84.517307,39.097828,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Saint Louis, Missouri</name>
+      <description><![CDATA["We arrived in St. Louis at noon. I took a walk down by the Mississippi River and watched the logs that came floating from Montana in the north--grand Odyssean logs of our continental dream." - part 1, 103<br><br>"Then the Indiana fields again, and St. Louis as ever in the great valley clouds of afternoon. The muddy cobbles and the Montana logs, the broken steamboats, the ancient signs, the grass and the ropes by the river. The endless poem." - part 4, 255]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -90.198097,38.624918,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Terre Haute, Indiana</name>
+      <description><![CDATA["He had got on at Terre Haute, Indiana" - part 4, 256]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -87.41375,39.464692,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Abilene, Kansas</name>
+      <description><![CDATA["By night Missouri, Kansas fields, Kansas night-cows in the secret wides, crackerbox towns with a sea for the end of every street; dawn in Abilene. East Kansas grasses become West Kansas rangelands that climb up to the hill of the Western night." - part 4, 255]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -97.221622,38.920154,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Larimer Street, Denver, Colorado</name>
+      <description><![CDATA["He let me off at Larimer Street. I stumbled along with the most wicked grin of joy in the world, among the old bums and beat cowboys of Larimer Street." - part 1, 35<br><br>"We arrived in Denver. I took him by the arm to Larimer Street to pawn the penitentiary suit." - part 4, 257]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -104.990158,39.754185,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>On the Road - part 4</name>
+      <description>New York - Mexico</description>
+      <styleUrl>#line-0000FF-5000</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -99.126892,19.424506,0
+          -98.923645,21.307287,0
+          -98.997803,23.313252,0
+          -99.137878,23.740098,0
+          -99.433823,24.246965,0
+          -99.572182,24.850615,0
+          -99.83551,25.195,0
+          -100.314789,25.699082,0
+          -100.17334,26.497615,0
+          -99.513474,27.479644,0
+          -99.501801,27.521669,0
+          -99.349365,28.033198,0
+          -99.173584,28.661671,0
+          -98.492432,29.41089,0
+          -98.865967,30.259067,0
+          -99.360352,31.128199,0
+          -99.415283,31.821565,0
+          -99.744873,32.444885,0
+          -100.318909,33.619194,0
+          -100.305176,34.007135,0
+          -100.228271,34.434098,0
+          -101.835022,35.194012,0
+          -102.521667,36.065752,0
+          -104.436035,36.897194,0
+          -104.507446,37.164694,0
+          -104.768372,37.631635,0
+          -104.60907,38.25328,0
+          -104.832916,38.83008,0
+          -104.862785,39.374516,0
+          -104.99015,39.75411,0
+          -97.20703,38.91668,0
+          -90.19775,38.61687,0
+          -87.40722,39.45316,0
+          -84.50683,39.07037,0
+          -82.65014,38.43638,0
+          -81.6394,38.32442,0
+          -78.45336,38.47079,0
+          -77.01416,38.88248,0
+          -73.81713,40.68063,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Dalhart, Texas</name>
+      <description><![CDATA["I had a book with me I stole from a Hollywood stall, "Le Grand Meaulnes" by Alain-Fournier, but I preferred reading the American landscape as we went along. Every bump, rise, and stretch in it mystified my longing. In inky night we crossed New Mexico; at gray dawn it was Dalhart, Texas" - part 1, 103<br> <br>"We drove on. Across the immense plain of night lay the first Texas town, Dalhart, which I'd crossed in 1947. It lay glimmering on the dark floor of the earth, fifty miles way." - part 4, 269]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -102.521496,36.065752,0
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Castle Rock, Colorado</name>
+      <description><![CDATA["Now we pointed our rattle snout south and headed for Castle Rock, Colorado, as the sun turned red and the rock of the mountains to the west looked like a Brooklyn brewery in November dusks." - part 4, 267]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -104.862785,39.374715,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Colorado Springs, Colorado</name>
+      <description><![CDATA["We passed Castle Rock, came to Colorado Springs at dark." - part 4, 268]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -104.83223,38.832754,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pueblo, Colorado</name>
+      <description><![CDATA["The great shadow of Pike's Peak loomed to our right. We bowled down the Pueblo highway." - part 4, 268]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -104.608555,38.255571,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Walsenburg, Colorado</name>
+      <description><![CDATA["We passed Walsenburg." - part 4, 269]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -104.772491,37.637616,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trinidad, Colorado</name>
+      <description><![CDATA["suddenly we passed Trinidad, where Chad King was somewhere off the road in front of a campfire with perhaps a handful of anthropologists and as of yore he too was telling his life story and never dreamed we were passing at that exact moment on the highway, headed for Mexico, telling our own stories." - part 4, 269]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -104.51088,37.165789,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Raton, New Mexico</name>
+      <description><![CDATA["Then we were in New Mexico and passed the rounded rocks of Raton and stopped at a diner, ravingly hungry for hamburgers, some of which we wrapped in a napkin to eat over the border below. 'The whole vertical state of Texas lies before us, Sal,' said Dean. 'Before we made horizontal. Every bit as long. We'll be in Texas in a few minutes and won't be out till tomorrow this time and won't stop driving. Think of it.'" - part 4, 269]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -104.438438,36.905705,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Amarillo, Texas</name>
+      <description><![CDATA["After Dalhart--empty crackerbox town--we bowled for Amarillo, and reached it in the morning among windy panhandle grasses that only a few years ago waved around a collection of buffalo tents." - part 4, 269]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -101.837425,35.19317,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Childress, Texas</name>
+      <description><![CDATA["All the way from Amarillo to Childress, Dean and I pounded plot after plot of books we'd read into Stan, who asked for it because he wanted to know." - part 4, 270]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -100.226383,34.433532,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paducah, Texas</name>
+      <description><![CDATA["At Childress in the hot sun we turned directly south on a lesser road and highballed across abysmal wastes to Paducah, Guthrie, and Abilene, Texas." - part 4, 270]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -100.301914,34.012827,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guthrie, Texas</name>
+      <description><![CDATA["At Childress in the hot sun we turned directly south on a lesser road and highballed across abysmal wastes to Paducah, Guthrie, and Abilene, Texas." - part 4, 270]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -100.322685,33.618765,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Abilene, Texas</name>
+      <description><![CDATA["Texas is undeniable: we burned slowly into Abilene and all woke up to look at it. 'Imagine living in this town a thousand miles from cities. Whoop, whoop, over there by the tracks, old town Abilene where they shipped the cows and shot it up for gumshoes and drank red-eye.'" - part 4, 270]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.73629,32.442567,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coleman, Texas</name>
+      <description><![CDATA["Nightfall seemed like a million miles away as we resumed for Coleman and Brad--the heart of Texas, only, wildernesses of brush with an occasional house near a thirsty creek and a fifty-mile dirt road detour and endless heat." - part 4, 270]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.422836,31.827982,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brady, Texas</name>
+      <description><![CDATA["Nightfall seemed like a million miles away as we resumed for Coleman and Brad--the heart of Texas, only, wildernesses of brush with an occasional house near a thirsty creek and a fifty-mile dirt road detour and endless heat." - part 4, 270]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.336662,31.136134,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fredericksburg, Texas</name>
+      <description><![CDATA["We were near Fredericksburg, in the high plains. It was one of the worst winters in Texas and Western history, when cattle perished like flies in great blizzards and snow fell on San Francisco and L.A. We were all miserable. We wished we were back in New Orleans with Ed Dunkel. Marylou was driving; Dean was sleeping. She drove with one hand on the wheel and the other reaching back to me in the back seat. She cooed promises about San Francisco. I slavered miserably over it." - part 2, 160<br> <br>"I took the wheel and drove to Fredericksburg, and here again I was crisscrossing the old map again, same place Marylou and I had held hands on a snowy morning in 1949, and where was Marylou now?" - part 4, 270]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -98.874893,30.276117,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Antonio, Texas</name>
+      <description><![CDATA["We were already almost out of America and yet definitely in it and in the middle of where it's maddes. Hotrods blew by. San Antonio, ah-aah!" - part 4, 271]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -98.491058,29.419563,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dilley, Texas</name>
+      <description><![CDATA["And now we were ready for the last hundred and fifty miles to the magic border. We leaped into the car and off. I was so exhausted by now I slept all the way through Dilley and Encinal and Laredo" - part 4, 273]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183283,28.675227,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Encinal, Texas</name>
+      <description><![CDATA["And now we were ready for the last hundred and fifty miles to the magic border. We leaped into the car and off. I was so exhausted by now I slept all the way through Dilley and Encinal and Laredo" - part 4, 273]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.350395,28.043501,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Laredo, Texas</name>
+      <description><![CDATA["Laredo was a sinister town that morning." - part 4, 273]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.502831,27.521669,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nuevo Laredo, Mexico</name>
+      <description><![CDATA["It was only Nuevo Laredo but it looked like Holy Lhasa to us." - part 4, 274]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.514503,27.480405,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sabinas Hidalgo, Mexico</name>
+      <description><![CDATA["The first town ahead that had any consequence on the map was called Sabinas Hidalgo. We looked forward to it eagerly." - part 4, 277]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -100.17643,26.50207,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Monterrey, Mexico</name>
+      <description><![CDATA["Across this plateau the big manufacturing town of Monterrey sent smoke to the blue skies with their enormous Gulf clouds written across the bowl of day like fleece." - part 4, 278]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -100.314445,25.702485,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Montemorelos, Mexico</name>
+      <description><![CDATA["Montemorelos was ahead, a descent again to hotter altitudes. It grew exceedingly hot and strange." - part 4, 279]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.835596,25.194923,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Linares, Mexico</name>
+      <description><![CDATA["I took the wheel and drove among reveries of my own, through Linares..." - part 4, 279-280]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.572182,24.850615,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hidalgo, Mexico</name>
+      <description><![CDATA["... through hot, flat swamp country, across the steaming Rio Soto la Marina near Hidalgo, and on." - part 4, 280]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.433136,24.248217,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Victoria ("Gregoria"), Mexico]]></name>
+      <description><![CDATA["A great verdant jungle valley with long fields of green crops opened before me. Groups of men watched us pass from a narrow old-fashioned bridge. The hot river flowed. Then we rose in altitude till a kind of desert country began appearing. The city of Gregoria was ahead." - part 4, 280]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.138565,23.741355,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Llera de Canales ("Limón"), Mexico]]></name>
+      <description><![CDATA["And suddenly Limón appeared before us, a jungle town, a few brown lights, dark shadows, enormous skies overhead, and a cluster of men in front of a jumble of woodshacks--a tropical crossroads." - part 4, 293]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -98.999176,23.314513,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>(Central Plateau, Mexico)</name>
+      <description><![CDATA["Then the mountains loomed ahead, all green. After this climb we would be on the great central plateau again and ready to roll ahead to Mexico City. In no time at all we soared to an elevation of five thousand feet among misty passes that overlooked steaming yellow rivers a mile below. It was the great river Moctezuma." - part 4, 296]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -98.918152,21.312405,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mexico City, Mexico</name>
+      <description><![CDATA["'Mexico City by dusk!' We made it, a total of nineteen hundred miles from the afternoon yards of Denver to these vast and Biblical areas of the world, and now we were about to reach the end of the road." - part 4, 299]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -99.126205,19.425154,0
+        </coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>

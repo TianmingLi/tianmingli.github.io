@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Calque sans titre</name>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-33CC00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-33CC00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Paterson, New Jersey</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -74.168701,40.912994,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>242nd Street, New York, New York</name>
+      <description><![CDATA["Filled with dream of what I'd do in Chicago, in Denver, and finally in San Fran, I took the Seventh Avenue subway to the end of the line at 242nd Street, and there took a trolley into Yonkers" - part 1, 10]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -73.898506,40.889574,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Yonkers, New York</name>
+      <description><![CDATA["in downtown Yonkers I transferred to an outgoing trolley and went to the city limits on the east bank of the Hudson River" - part 1, 10]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -73.895588,40.939323,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bear Moutain Bridge, New York</name>
+      <description><![CDATA["Five scattered rides took me to the desired Bear Mountain Bridge, where Route 6 arched in from New England" - part 1, 10]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -73.979509,41.319962,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Newburgh, New York</name>
+      <description><![CDATA["But the people let me in and rode me north to Newburgh, which I accepted as a better alternative than being trapped in the Bear Mountain wilderness all night." - part 1, 11]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -74.021416,41.499578,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bus station, New York, New York</name>
+      <description><![CDATA["I had to ride back to New York in a bus with a delegation of schoolteachers coming back from a weekend in the mountains" - part 1, 11]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -73.993092,40.750281,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ashtabula, Ohio</name>
+      <description><![CDATA["It was an ordinary bus trip with crying babies and hot sun, and countryfolk getting on at one Penn town after another, till we got on the plain of Ohio and really rolled, up by Ashtabula and straight across Indiana in the night." - part 1, 12]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -80.79689,41.880298,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Joliet, Illinois</name>
+      <description><![CDATA["I took a bus to Joliet, Illinois, went by the Joliet pen, stationed myself just outside town after a walk through its leafy rickety streets behind, and pointed my way." - part 1, 12]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -88.079453,41.517318,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Iowa City, Iowa</name>
+      <description><![CDATA["Just as we rolled into Iowa City he saw another truck coming behind us, and because he had to turn off at Iowa City he blinked his tail lights at the other guy and slowed down for me to jump out, which I did with my bag, and the other truck, acknowledging this exchange, stopped for me, and once again, in the twink of nothing, I was in another big high cab, all set to go hundreds of miles across the night, and was I happy!" - part 1, 14]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -91.532593,41.656241,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Adel, Iowa</name>
+      <description><![CDATA["I immediately got a ride from a farmer and his son heading out for Adel in Iowa" - part 1, 16]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -94.026146,41.613902,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stuart, Iowa</name>
+      <description><![CDATA["But we stuck together and got a ride with a taciturn man to Stuart, Iowa, a town in which we were really stranded." - part 1, 16]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -94.318485,41.493407,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Council Bluffs, Iowa</name>
+      <description><![CDATA["We arrived at Council Bluffs at dawn; I looked out. All winter I'd been reading of the wagon parties that held council there before hitting the Oregon and Sante Fe trails; and of course now it was only cute suburba, cottages of one damn kind and another, all laid out in the dismal gray dawn." - part 1, 17]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -95.878372,41.239609,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Omaha, Nebraska</name>
+      <description>part 1, 17</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -95.94223,41.259743,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shelton, Nebraska</name>
+      <description><![CDATA["Then an old man who said nothing--and God knows why he picked us up--took us to Shelton" - part 1, 19]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -98.732758,40.780346,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>North Platte, Nebraska</name>
+      <description><![CDATA["I was glad when the two Minnesota farmboys who owned the truck decided to stop in North Platte and eat; I wanted to have a look at them." - part 1, 24]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -100.772438,41.131607,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cheyenne, Wyoming</name>
+      <description><![CDATA["As the truck reached the outskirts of Cheyenne, we saw the high red lights of the local radio station, and suddenly we were bucking through a great crowd of people that poured along both sidewalks. 'Hell's bells, it's Wild West Week,' said Slim. Big crowds of businessmen, fat businessmen in boots and ten-gallon hats, with their hefty wives in cowgirl attire, bustled and whooped on the wooden sidewalks of old Cheyenne; farther down were the long stringy boulevard lights of new downtown Cheyenne, but the celebration was focusing on Oldtown." - part 1, 30<br><br>"The bus trip from Denver to Frisco was uneventful except that my whole soul leaped to it the nearer we got to Frisco. Cheyenne again, in the afternoon this time, and then west over the range" - part 1, 60]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -104.851112,41.113762,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Longmont, Colorado</name>
+      <description><![CDATA["But by the time he let me off at Longmont, Colorado, I was feeling normal again and had even started telling him about the state of my own travels." - part 1, 34]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -105.102253,40.153031,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Central City, Colorado</name>
+      <description><![CDATA["that trek to the mountains" - part 1, 51]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -105.513039,39.799634,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Creston, Wyoming</name>
+      <description><![CDATA["The bus trip from Denver to Frisco was uneventful except that my whole soul leaped to it the nearer we got to Frisco. Cheyenne again, in the afternoon this time, and then west over the range; crossing the Divide at midnight at Creston" - part 1, 60]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -107.728672,41.725077,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Truckee, California</name>
+      <description><![CDATA["then up the Sierra Nevada, pines, stars, mountain lodges signifying Frisco romances--a little girl in the back seat, crying to her mother, 'Mama when do we get home to Truckee?' And Truckee itself, homey Truckee" - part 1, 60]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -120.18013,39.333368,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oakland, California</name>
+      <description><![CDATA["In Oakland I had a beer among the bums of a saloon with a wagon wheel in front of it, and I was on the road again." - part 1, 80]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.212944,37.773971,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bakersfield, California</name>
+      <description><![CDATA["Two rides took me to Bakersfield, four hundred miles south." - part 1, 80<br><br>"We arrived in Bakersfield in late afternoon. The plan was to hit every fruit wholesaler in town. Terry said we could live in tents on the job." - part 1, 90<br><br>"Dean wanted to tell me everything he knew about Bakersfield as we reached the city limits." - part 2, 168]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -119.017639,35.373375,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tracy, California</name>
+      <description><![CDATA["He made Tracy in no time. Tracy is a railroad town; brakemen eat surly meals in diners by the tracks. Trains howl away across the valley. The sun goes down long and red." - part 1, 80]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -121.436005,37.736512,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Manteca, California</name>
+      <description><![CDATA["All the magic names of the valley unrolled--Manteca, Madera, all the rest." - part 1, 80]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -121.228294,37.798933,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madera, California</name>
+      <description><![CDATA["All the magic names of the valley unrolled--Manteca, Madera, all the rest." - part 1, 80<br><br>"We were turning off the Oregon road at Madera, and there we made our farewell with little Alfred." - part 2, 169]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -120.08297,36.966078,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fresno, California</name>
+      <description><![CDATA["He drove me into buzzying Fresno and let me off by the south side of the town. I went for a quick Coke in a little grocery by the tracks, and here came a melancholy Armenian youth along the red boxcars, and just at that moment a locomotive howled, and I said to myself, Yes, yes, Saroyan's (http://en.wikipedia.org/wiki/William_Saroyan) town." - part 1, 81]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -119.753036,36.691547,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Los Angeles, California</name>
+      <description><![CDATA["We got off the bus at Main Street, which was no different from where you get off a bus in Kansas City or Chicago or Boston--red bricks, dirty, characters drifting by, trolleys grating in the hopeless dawn, the whorey smell of a big city." - part 1, 83]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -118.241901,34.053086,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arcadia, California</name>
+      <description><![CDATA["So before the daily room rent was due we packed up and took off on a red car to Arcadia, California, where Santa Anita racetracks is located under snow-capped mountains." - part 1, 89]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -118.038483,34.140793,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Selma ("Sabinal"), California]]></name>
+      <description><![CDATA["Terry had a new idea. We would hitchhike to Sabinal, her hometown, and live in her brother's garage. Anything was allright with me. On the road I made Terry sit down on my bag to make her look like a woman in distress, and right off a truck stopped and we ran for it, all glee-giggles. The man was a good man, his truck was poor. He roared and crawled on up the valley. We got to Sabinal in the wee hours before dawn." - part 1, 91<br><br>"sometime in the afternoon, while I dozed, the muddy Hudson zoomed by the tents outside Sabinal where I had lived and loved and worked in the spectral past." - part 2, 169]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -119.619656,36.575284,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Los Angeles, California</name>
+      <description><![CDATA["I got out on the highway and hitched a ride at once. It was the fastest, whoopingest ride of my life. (...) We made Sabinal to LA in the amazing time of four hours flat about 250 miles. He dropped me off right in front of Columbia Pictures in Hollywood." - part 1, 101]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -118.321874,34.098017,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Indio, California</name>
+      <description><![CDATA["At dawn, my bus was zooming across the Arizona desert--Indio, Blythe, Salome (where she danced); the great dry stretches leading to Mexican mountains in the south." - part 1, 103]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -116.234665,33.736903,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Blythe, California</name>
+      <description><![CDATA["At dawn, my bus was zooming across the Arizona desert--Indio, Blythe, Salome (where she danced); the great dry stretches leading to Mexican mountains in the south." - part 1, 103]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -114.572296,33.608901,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Salome, California</name>
+      <description><![CDATA["At dawn, my bus was zooming across the Arizona desert--Indio, Blythe, Salome (where she danced) (http://www.imdb.com/title/tt0038046/); the great dry stretches leading to Mexican mountains in the south." - part 1, 103]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -113.613138,33.782072,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Flagstaff, Arizona</name>
+      <description><![CDATA["Then we swung north to the Arizona mountains, Flagstaff, clifftowns." - part 1, 103]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -111.65062,35.197378,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dalhart, Texas</name>
+      <description><![CDATA["I had a book with me I stole from a Hollywood stall, "Le Grand Meaulnes" by Alain-Fournier, but I preferred reading the American landscape as we went along. Every bump, rise, and stretch in it mystified my longing. In inky night we crossed New Mexico; at gray dawn it was Dalhart, Texas" - part 1, 103<br> <br>"We drove on. Across the immense plain of night lay the first Texas town, Dalhart, which I'd crossed in 1947. It lay glimmering on the dark floor of the earth, fifty miles way." - part 4, 269]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -102.521496,36.065752,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Columbus, Ohio</name>
+      <description><![CDATA["She got off at Columbus, Ohio." - part 1, 104]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -82.993126,39.959228,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pittsburgh, Pennsylvania</name>
+      <description><![CDATA["I slept all the way to Pittsburgh. I was wearier than I'd been for years and years. I had three hundred and sixty-five miles yet to hitchhike to New York, and a dime in my pocket." - part 1, 104]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -79.99815,40.438325,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Harrisburg, Pennsylvania</name>
+      <description><![CDATA["I walked five miles to get out of Pittsburgh, and two rides, an apple truck and a big trailer truck, took me to Harrisburg in the soft Indian-summer rainy night. I cut right along. I wanted to get home." - part 1, 104<br><br>("This was the night of the Ghost of the Susquehanna.")]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -76.882668,40.267869,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Allentown, Pennsylvania</name>
+      <description><![CDATA["I was alone in the car, waiting for him as he made business calls in Allentown, and I laughed and laughed. Gad, I was sick and tired of life. But the madman drove me home to New York." - part 1, 106]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -75.481567,40.623204,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Times Square, New York, New York</name>
+      <description><![CDATA["Suddenly I found myself on Times Square." - end of part 1, 106]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -73.986182,40.757181,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[On the Road, part 1: NY>Denver>California>NY]]></name>
+      <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -74.168701,40.912475,0
+          -73.993607,40.750378,0
+          -73.898163,40.889639,0
+          -73.896103,40.939452,0
+          -73.9785,41.319591,0
+          -74.021759,41.498807,0
+          -73.993607,40.750378,0
+          -80.79483,41.880809,0
+          -87.624207,41.867516,0
+          -88.082886,41.514747,0
+          -90.569916,41.446329,0
+          -90.574036,41.517832,0
+          -91.531906,41.655984,0
+          -93.616562,41.583607,0
+          -94.025803,41.611335,0
+          -94.31694,41.492635,0
+          -95.874939,41.237544,0
+          -95.939484,41.259227,0
+          -98.360596,40.917664,0
+          -98.725891,40.774302,0
+          -100.167847,40.925965,0
+          -100.766602,41.133159,0
+          -101.711426,41.120746,0
+          -104.787598,41.112469,0
+          -105.100708,40.153687,0
+          -104.992905,39.751017,0
+          -105.513811,39.799964,0
+          -104.992905,39.751017,0
+          -104.787598,41.112469,0
+          -107.729187,41.725206,0
+          -111.880646,40.753499,0
+          -119.816895,39.52523,0
+          -120.184937,39.334297,0
+          -122.392502,37.785911,0
+          -122.212601,37.773971,0
+          -121.434631,37.735969,0
+          -121.228638,37.798933,0
+          -120.083656,36.965529,0
+          -119.753036,36.690997,0
+          -119.019699,35.372255,0
+          -118.24173,34.053228,0
+          -118.037796,34.140793,0
+          -119.617767,36.572527,0
+          -118.322067,34.098159,0
+          -116.233978,33.735761,0
+          -114.572296,33.60547,0
+          -113.613052,33.78143,0
+          -111.654053,35.200745,0
+          -102.521667,36.064642,0
+          -90.197754,38.615797,0
+          -82.993469,39.958175,0
+          -79.999008,40.436495,0
+          -76.882668,40.266821,0
+          -75.481567,40.622683,0
+          -73.986139,40.757108,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

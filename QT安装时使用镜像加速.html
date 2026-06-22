@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QT安装时利用镜像加速 — Blog</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #222;
+    background: #fff;
+  }
+  header { margin-bottom: 40px; }
+  header a { color: #222; text-decoration: none; font-weight: 700; font-size: 18px; }
+  nav { margin-top: 6px; }
+  nav a { color: #555; font-weight: 400; font-size: 14px; margin-right: 12px; }
+
+  h1 { font-size: 24px; margin: 32px 0 8px; }
+  h2 { font-size: 20px; margin: 28px 0 6px; }
+  h3 { font-size: 17px; margin: 24px 0 4px; }
+  p { margin: 12px 0; }
+  a { color: #0366d6; }
+  img { max-width: 100%; height: auto; margin: 8px 0; border-radius: 4px; }
+  pre { background: #f6f8fa; padding: 14px 16px; border-radius: 6px; overflow-x: auto; font-size: 14px; line-height: 1.45; }
+  code { font-family: "SF Mono", "Fira Code", "Cascadia Code", Consolas, monospace; font-size: 90%; }
+  blockquote { border-left: 3px solid #ddd; padding-left: 14px; color: #666; margin: 12px 0; }
+  hr { border: none; border-top: 1px solid #eee; margin: 32px 0; }
+
+  .date { color: #888; font-size: 14px; }
+  .back { display: inline-block; margin-top: 40px; color: #555; font-size: 14px; }
+  .index-item { margin: 10px 0; }
+  .index-item .date { margin-right: 10px; white-space: nowrap; }
+</style>
+</head>
+<body>
+<header>
+  <a href="/">Blog</a>
+</header>
+
+<h1>QT安装时利用镜像加速</h1>
+<div class="date">2021-08-22</div>
+
+<h2 id="问题">问题</h2>
+<p>QT在线安装下载速度极慢，安装完成按月计算。</p>
+<h2 id="加速">加速</h2>
+<pre><code>.\qt-unified-windows-x86-4.3.0-1-online.exe --mirror  https://mirrors.tuna.tsinghua.edu.cn/qt</code></pre>
+<p><img src="images/qt_acc_1.jpg" /></p>
+<p><img src="images/qt_acc_2.jpg" /></p>
+<h2 id="参考">参考</h2>
+<p><a
+href="https://wiki.qt.io/Online_Installer_4.x#Selecting_a_mirror_for_opensource">利用镜像进行加速</a></p>
+
+<a class="back" href="/">← 返回</a>
+</body>
+</html>
