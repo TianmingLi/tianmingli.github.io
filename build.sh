@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 set -e
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
@@ -6,6 +6,7 @@ POSTS="$ROOT/posts"
 PUBLIC="$ROOT/public"
 TMPL="$ROOT/template.html"
 IMGSRC="$ROOT/source/images"
+TAB=$(printf '\t')
 
 # Clean and recreate public
 rm -rf "$PUBLIC"
@@ -35,37 +36,21 @@ for md in "$POSTS"/*.md; do
 
     # Generate plain-text preview from body only
     body=$(sed -n '/<body>/,/<\/body>/p' "$out" | sed '1s/.*<body>//; $s/<\/body>.*//')
-    preview=$(echo "$body" | sed 's/<[^>]*>//g' | sed "s/$title//" | tr -s '[:space:]' ' ' | sed 's/^ *//' | head -c 250)
+    preview=$(printf '%s' "$body" | sed 's/<[^>]*>//g' | sed "s/$title//" | tr -s '[:space:]' ' ' | sed 's/^ *//' | head -c 250)
     # Strip template artifacts
-    preview=$(echo "$preview" | sed "s/^Blog //; s/^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\} //; s/ ← 返回.*//")
+    preview=$(printf '%s' "$preview" | sed "s/^Blog //; s/^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\} //; s/ ← 返回.*//")
     # Truncate at last space before 200
     if [ ${#preview} -gt 200 ]; then
         preview="${preview:0:200}"
         preview="${preview% *}..."
     fi
 
-    # Escape special chars for sed replacement
-    title_esc=$(echo "$title" | sed 's/&/\\\&/g; s/\//\\\//g')
-    date_esc=$(echo "$date" | sed 's/&/\\\&/g; s/\//\\\//g')
-    preview_esc=$(echo "$preview" | sed 's/&/\\\&/g; s/\//\\\//g')
-
-    echo "$name.html|$title_esc|$date_esc|$preview_esc" >> "$entries_file"
+    printf '%s\t%s\t%s\t%s\n' "$name.html" "$title" "$date" "$preview" >> "$entries_file"
     echo "  $name.html"
 done
 
-items=""
-while IFS="|" read -r file title date preview; do
-    items="$items  <div class='index-item'>
-    <div class='index-meta'><span class='date'>$date</span></div>
-    <a class='index-title' href='$file'>$title</a>
-    <div class='index-preview'>$preview</div>
-  </div>
-"
-done < <(sort -t"|" -k3 -r "$entries_file")
-rm -f "$entries_file"
-
-# Write index.html
-cat > "$PUBLIC/index.html" << HTMLEOF
+# Write index header
+cat > "$PUBLIC/index.html" << 'HTMLEOF'
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -98,9 +83,20 @@ cat > "$PUBLIC/index.html" << HTMLEOF
 <h1>Posts</h1>
 HTMLEOF
 
-echo -e "$items" >> "$PUBLIC/index.html"
+# Generate index items sorted by date descending
+sort -t"$TAB" -k3 -r "$entries_file" | while IFS="$TAB" read -r file title date preview; do
+    cat >> "$PUBLIC/index.html" << ITEMEOF
+  <div class='index-item'>
+    <div class='index-meta'><span class='date'>$date</span></div>
+    <a class='index-title' href='$file'>$title</a>
+    <div class='index-preview'>$preview</div>
+  </div>
+ITEMEOF
+done
+rm -f "$entries_file"
 
-cat >> "$PUBLIC/index.html" << HTMLEOF
+# Write index footer
+cat >> "$PUBLIC/index.html" << 'HTMLEOF'
 </body>
 </html>
 HTMLEOF
