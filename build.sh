@@ -26,6 +26,7 @@ for md in "$POSTS"/*.md; do
     pandoc "$md" \
         --template="$TMPL" \
         --from=markdown+auto_identifiers \
+        --metadata charset=UTF-8 \
         --to=html5 \
         --standalone \
         -o "$out"
