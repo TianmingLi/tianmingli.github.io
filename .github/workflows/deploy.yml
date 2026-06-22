@@ -42,7 +42,7 @@ jobs:
 
           DEPLOY_DIR=$(mktemp -d)
           cp -r public/* "$DEPLOY_DIR"
-touch "$DEPLOY_DIR/.nojekyll"
+          touch "$DEPLOY_DIR/.nojekyll"
           cd "$DEPLOY_DIR"
 
           git init
