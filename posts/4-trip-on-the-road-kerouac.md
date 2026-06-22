@@ -5,18 +5,18 @@ date: 2022-04-18
 
 
 ## 路线一 - 1947年夏
-![](/images/trip1.png)
+![](images/trip1.png)
 
 ## 路线二 - 1948年冬
-![](/images/trip2.png)
+![](images/trip2.png)
 
 
 ## 路线三 - 1949年春
-![](/images/trip3.png)
+![](images/trip3.png)
 
 
 ## 路线四 - 1950年春
-![](/images/trip4.png)
+![](images/trip4.png)
 
 
 ## 参考

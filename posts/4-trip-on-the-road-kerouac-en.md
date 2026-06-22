@@ -5,18 +5,18 @@ date: 2022-04-18
 
 
 ## Trip 1 - 1947 summer
-![](/images/trip1-en.png)
+![](images/trip1-en.png)
 
 ## Trip 2 - 1948 winter
-![](/images/trip2-en.png)
+![](images/trip2-en.png)
 
 
 ## Trip 3 - 1949 spring
-![](/images/trip3-en.png)
+![](images/trip3-en.png)
 
 
 ## Trip 4 - 1950 spring
-![](/images/trip4-en.png)
+![](images/trip4-en.png)
 
 
 ## Reference

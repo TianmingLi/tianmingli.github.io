@@ -16,9 +16,9 @@ QT在线安装下载速度极慢，安装完成按月计算。
 .\qt-unified-windows-x86-4.3.0-1-online.exe --mirror  https://mirrors.tuna.tsinghua.edu.cn/qt
 ```
 
-![](/images/qt_acc_1.jpg)
+![](images/qt_acc_1.jpg)
 
-![](/images/qt_acc_2.jpg)
+![](images/qt_acc_2.jpg)
 
 
 ## 参考
