@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 set -e
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
@@ -53,16 +53,15 @@ for md in "$POSTS"/*.md; do
     echo "  $name.html"
 done
 
-# Generate index body, sorted by date descending
 items=""
-sort -t"|" -k3 -r "$entries_file" | while IFS="|" read -r file title date preview; do
+while IFS="|" read -r file title date preview; do
     items="$items  <div class='index-item'>
     <div class='index-meta'><span class='date'>$date</span></div>
     <a class='index-title' href='$file'>$title</a>
     <div class='index-preview'>$preview</div>
   </div>
 "
-done
+done < <(sort -t"|" -k3 -r "$entries_file")
 rm -f "$entries_file"
 
 # Write index.html
