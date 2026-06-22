@@ -1,0 +1,50 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - pandoc
+
+env:
+  GIT_USER: tianmingli
+  GIT_EMAIL: litmig@live.com
+  DEPLOY_BRANCH: master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: |
+          wget -q https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-linux-amd64.tar.gz
+          tar xzf pandoc-3.6.4-linux-amd64.tar.gz
+          sudo cp pandoc-3.6.4/bin/pandoc /usr/local/bin/
+
+      - name: Build
+        run: bash build.sh
+
+      - name: Deploy
+        env:
+          DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_PRI }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.name "$GIT_USER"
+          git config --global user.email "$GIT_EMAIL"
+
+          DEPLOY_DIR=$(mktemp -d)
+          cp -r public/* "$DEPLOY_DIR"
+          cd "$DEPLOY_DIR"
+
+          git init
+          git checkout -b "$DEPLOY_BRANCH"
+          git add -A
+          git commit -m "deploy $(date -u '+%Y-%m-%d %H:%M')"
+          git remote add origin git@github.com:${{ github.repository }}.git
+          git push -f origin "$DEPLOY_BRANCH"
